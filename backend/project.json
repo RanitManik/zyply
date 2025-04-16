@@ -1,0 +1,12 @@
+{
+  "name": "@zyply/backend",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "go run backend/main.go",
+        "cwd": "."
+      }
+    }
+  }
+}

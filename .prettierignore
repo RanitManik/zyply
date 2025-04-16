@@ -1,0 +1,38 @@
+# Ignore system folders
+node_modules
+dist
+build
+tmp
+.cache
+coverage
+
+# Nx-specific outputs
+**/dist
+**/.next
+**/out
+
+# Go backend
+backend/
+
+# Test output & snapshots
+**/*.test.ts.snap
+**/__snapshots__/
+**/.test-results/
+**/.jest-cache
+
+# Environment & secrets
+.env
+.env.*.local
+
+# Ignore lockfiles 
+yarn.lock
+bun.lockb
+package-lock.json
+
+# Ignore IDE/editor configs
+.idea
+.vscode
+
+# Optional: Ignore generated files
+*.log
+*.tsbuildinfo
