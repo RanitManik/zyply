@@ -2,9 +2,7 @@
 
 Zyply is a lightning-fast URL manager that lets you shorten links, track views, and visualize analytics — all in one clean interface.
 
-> 🚧 **Note: This website is currently under active development. Some features may be incomplete or subject to change.** 🚧
-
-Built using a modern monorepo setup powered by Nx.
+Built using a modern monorepo setup powered by **Nx**.
 
 ## 🚀 Features
 
@@ -17,12 +15,12 @@ Built using a modern monorepo setup powered by Nx.
 
 ## 🧱 Tech Stack
 
-| Layer | Tech |
-||--|
-| Frontend | Next.js (React + Tailwind CSS) |
-| Backend | Go (Golang) |
-| Database | PostgreSQL |
-| Dev Tools | Nx, Prettier, Tailwind Sorter |
+| Layer     | Tech                           |
+| --------- | ------------------------------ |
+| Frontend  | Next.js (React + Tailwind CSS) |
+| Backend   | Go (Golang)                    |
+| Database  | PostgreSQL                     |
+| Dev Tools | Nx, Prettier, Tailwind Sorter  |
 
 ## 📁 Project Structure
 
@@ -67,3 +65,6 @@ npm run format
 # Or use Nx
 npx nx format:write
 ```
+
+> [!NOTE]
+> This website is currently under active development. Some features may be incomplete or subject to change.
