@@ -9,7 +9,7 @@ out-tsc
 node_modules
 
 # IDEs and editors
-/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -46,3 +46,7 @@ Thumbs.db
 out
 
 test-output
+
+# environment variables
+.env
+.env.local
